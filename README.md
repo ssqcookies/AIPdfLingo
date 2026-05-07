@@ -26,6 +26,7 @@ v2.0
 
 
 ## 项目结构
+```text
 AIPdfLingo/
 ├── config.yaml              # 模型配置文件，存放 API_KEY、模型名称等
 ├── config.example.yaml      # 模型配置示例文件，不含真实密钥
@@ -56,7 +57,7 @@ AIPdfLingo/
 ├── main.py                  # 项目命令行入口，启动翻译任务
 ├── README.md                # 项目说明文档
 └── requirements.txt         # 项目依赖清单，一键安装环境
-
+```
 
 ## 开始使用
 
@@ -73,6 +74,5 @@ AIPdfLingo/
 5. 本项目已通过 `.gitignore` 自动忽略真实配置文件
 
 ### 翻译文件
-
-1.使用命令行 python main.py
-2.根据提示输入需要翻译的文档名称
+1. 使用命令行 python main.py
+2. 根据提示输入需要翻译的文档名称
