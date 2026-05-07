@@ -1,0 +1,20 @@
+# 本地多模型配置示例
+models:
+  zhipu:
+    api_key: "你的智谱API_KEY"
+    model: "glm-4-air"
+
+  openai:
+    api_key: "你的OpenAI_KEY"
+    model: "gpt-3.5-turbo"
+
+  deepseek:
+    api_key: "你的DeepSeek_KEY"
+    model: "deepseek-chat"
+
+# 默认设置（不包含文件路径）
+settings:
+  use_model: "zhipu"    # 当前使用的模型
+  output_format: "markdown" # 输出格式
+  temperature: 0.1          # 翻译精度
+  max_tokens: 4000          # 每次翻译长度

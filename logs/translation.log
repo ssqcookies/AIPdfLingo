@@ -1,0 +1,137 @@
+2026-05-07 11:26:00.734 | DEBUG    | translator.pdf_parser:parse_pdf:87 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:26:00.739 | DEBUG    | translator.pdf_parser:parse_pdf:93 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2026-05-07 11:26:00.792 | DEBUG    | translator.pdf_translator:translate_pdf:22 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:26:01.117 | WARNING  | model.zhipu_model:call_requestAI:27 - 智谱API调用失败，60秒后重试: Error code: 400, with error text {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"}}
+2026-05-07 11:27:01.294 | WARNING  | model.zhipu_model:call_requestAI:27 - 智谱API调用失败，60秒后重试: Error code: 400, with error text {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"}}
+2026-05-07 11:28:19.602 | DEBUG    | translator.pdf_parser:parse_pdf:87 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:28:19.606 | DEBUG    | translator.pdf_parser:parse_pdf:93 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2026-05-07 11:28:19.643 | DEBUG    | translator.pdf_translator:translate_pdf:22 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:28:19.942 | WARNING  | model.zhipu_model:call_requestAI:27 - 智谱API调用失败，60秒后重试: Error code: 400, with error text {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"}}
+2026-05-07 11:29:20.265 | WARNING  | model.zhipu_model:call_requestAI:27 - 智谱API调用失败，60秒后重试: Error code: 400, with error text {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"}}
+2026-05-07 11:30:46.500 | DEBUG    | translator.pdf_parser:parse_pdf:87 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:30:46.504 | DEBUG    | translator.pdf_parser:parse_pdf:93 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2026-05-07 11:30:46.540 | DEBUG    | translator.pdf_translator:translate_pdf:22 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:30:46.692 | WARNING  | model.zhipu_model:call_requestAI:27 - 智谱API调用失败，60秒后重试: Error code: 400, with error text {"error":{"code":"1211","message":"模型不存在，请检查模型代码。"}},zhipu
+2026-05-07 11:34:08.300 | DEBUG    | translator.pdf_parser:parse_pdf:87 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:34:08.304 | DEBUG    | translator.pdf_parser:parse_pdf:93 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2026-05-07 11:34:08.341 | DEBUG    | translator.pdf_translator:translate_pdf:22 - 翻译为中文：Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2026-05-07 11:34:31.134 | INFO     | translator.pdf_translator:translate_pdf:25 - 测试数据  
+该数据集包含由ChatGPT（OpenAI开发的人工智能语言模型）提供的两个测试样本。这些样本包括一个Markdown表格和一段英文文本，可用于测试支持文本和表格两种格式的英汉翻译软件。  
+
+文本测试  
+敏捷的棕色狐狸跳过懒狗。这个全字母句包含英语字母表中的每个字母至少一次。全字母句常用于测试字体、键盘和其他文本相关工具。除了英语，许多其他语言也有全字母句。由于语言的独特特性，一些全字母句更难构建。  
+
+表格测试
+2026-05-07 11:34:31.138 | DEBUG    | translator.pdf_translator:translate_pdf:22 - 翻译为中文，以空格和换行符表示表格：
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2026-05-07 11:34:38.094 | INFO     | translator.pdf_translator:translate_pdf:25 - 水果 颜色 价格（美元）
+苹果 红色 1.20
+香蕉 黄色 0.50
+橙子 橙色 0.80
+草莓 红色 2.50
+蓝莓 蓝色 3.00
+猕猴桃 绿色 1.00
+芒果 橙色 1.50
+葡萄 紫色 2.00
+2026-05-07 11:34:38.094 | DEBUG    | book.content:set_translation:50 - 水果 颜色 价格（美元）
+苹果 红色 1.20
+香蕉 黄色 0.50
+橙子 橙色 0.80
+草莓 红色 2.50
+蓝莓 蓝色 3.00
+猕猴桃 绿色 1.00
+芒果 橙色 1.50
+葡萄 紫色 2.00
+2026-05-07 11:34:38.095 | DEBUG    | book.content:set_translation:53 - [['水果', '颜色', '价格（美元）'], ['苹果', '红色', '1.20'], ['香蕉', '黄色', '0.50'], ['橙子', '橙色', '0.80'], ['草莓', '红色', '2.50'], ['蓝莓', '蓝色', '3.00'], ['猕猴桃', '绿色', '1.00'], ['芒果', '橙色', '1.50'], ['葡萄', '紫色', '2.00']]
+2026-05-07 11:34:38.098 | DEBUG    | book.content:set_translation:56 -     水果  颜色 价格（美元）
+0   苹果  红色   1.20
+1   香蕉  黄色   0.50
+2   橙子  橙色   0.80
+3   草莓  红色   2.50
+4   蓝莓  蓝色   3.00
+5  猕猴桃  绿色   1.00
+6   芒果  橙色   1.50
+7   葡萄  紫色   2.00
+2026-05-07 11:34:38.106 | INFO     | translator.writer:_save_translated_book_markdown:89 - pdf_file_path: test/test.pdf
+2026-05-07 11:34:38.106 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始翻译: test/test_translated.md
+2026-05-07 11:34:38.107 | INFO     | translator.writer:_save_translated_book_markdown:119 - 翻译完成: test/test_translated.md
