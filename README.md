@@ -26,41 +26,36 @@ v2.0
 
 
 ## 项目结构
-config.yaml              （模型配置文件，存放 API_KEY、模型名称等）
-config.example.yaml      （模型配置示例文件，不含真实密钥）
-model_manager.py         （多模型管理中心，根据配置自动创建并返回模型实例）
-
-book/
-├── __init__.py          # 模块导出入口，统一暴露 Book、Page、Content 等类
-├── book.py              # 书籍对象，承载整个 PDF 的结构、页面、内容
-├── content.py           # 内容基类，定义文本、表格、图片等统一数据结构
-└── page.py              # 页面对象，管理一页内的所有文本、表格、图片
-
-model/
-├── __init__.py          # 模型模块导出入口，对外提供所有模型接口
-├── model.py             # 模型抽象基类，定义统一翻译接口（所有模型必须继承）
-├── openai_model.py      # OpenAI 模型对接实现
-├── zhipu_model.py       # 智谱 AI 模型对接实现
-├── glm_model.py         # 本地 GLM 模型对接实现
-└── deepseek_model.py    # DeepSeek 模型对接实现
-
-utils/
-├── __init__.py          # 工具模块导出入口
-└── logger.py            # 日志工具，统一输出日志格式，便于调试与排查
-
-test/                    # 测试模块
-└── test.pdf             # 测试用 PDF 文件，用于功能验证
-
-translator/
-├── __init__.py          # 翻译模块导出入口，对外暴露核心翻译类
-├── pdf_parser.py        # PDF 解析器，负责提取文本、表格、分页处理
-├── pdf_translator.py    # PDF 翻译核心，调度解析、翻译、保存全流程
-├── writer.py            # 文档输出器，支持翻译结果导出为 PDF/Markdown/Docx
-└── pdf_exceptions.py    # 自定义异常体系：页码越界、文件损坏、翻译失败、API 错误
-
-main.py                  # 项目命令行入口，启动翻译任务
-README.md                # 项目说明文档
-requirements.txt         # 项目依赖清单，一键安装环境
+AIPdfLingo/
+├── config.yaml              # 模型配置文件，存放 API_KEY、模型名称等
+├── config.example.yaml      # 模型配置示例文件，不含真实密钥
+├── model_manager.py         # 多模型管理中心，根据配置自动创建并返回模型实例
+├── book/
+│   ├── __init__.py          # 模块导出入口，统一暴露 Book、Page、Content 等类
+│   ├── book.py              # 书籍对象，承载整个 PDF 的结构、页面、内容
+│   ├── content.py           # 内容基类，定义文本、表格、图片等统一数据结构
+│   └── page.py              # 页面对象，管理一页内的所有文本、表格、图片
+├── model/
+│   ├── __init__.py          # 模型模块导出入口，对外提供所有模型接口
+│   ├── model.py             # 模型抽象基类，定义统一翻译接口（所有模型必须继承）
+│   ├── openai_model.py      # OpenAI 模型对接实现
+│   ├── zhipu_model.py       # 智谱 AI 模型对接实现
+│   ├── glm_model.py         # 本地 GLM 模型对接实现
+│   └── deepseek_model.py    # DeepSeek 模型对接实现
+├── utils/
+│   ├── __init__.py          # 工具模块导出入口
+│   └── logger.py            # 日志工具，统一输出日志格式，便于调试与排查
+├── test/
+│   └── test.pdf             # 测试用 PDF 文件，用于功能验证
+├── translator/
+│   ├── __init__.py          # 翻译模块导出入口，对外暴露核心翻译类
+│   ├── pdf_parser.py        # PDF 解析器，负责提取文本、表格、分页处理
+│   ├── pdf_translator.py    # PDF 翻译核心，调度解析、翻译、保存全流程
+│   ├── writer.py            # 文档输出器，支持翻译结果导出为 PDF/Markdown/Docx
+│   └── pdf_exceptions.py    # 自定义异常体系：页码越界、文件损坏、翻译失败、API 错误
+├── main.py                  # 项目命令行入口，启动翻译任务
+├── README.md                # 项目说明文档
+└── requirements.txt         # 项目依赖清单，一键安装环境
 
 
 ## 开始使用
